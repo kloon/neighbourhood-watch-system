@@ -16,13 +16,13 @@ if ( ! class_exists( 'NWS_MailChimp' ) ) :
 		 * Our MailChimp API key
 		 * @var string
 		 */
-		private static $api_key = '26c113c54f73dad73472542faaa4f868-us12';
+		private static $api_key = '';
 
 		/**
 		 * Our mailing list ID
 		 * @var string
 		 */
-		private static $list_id = 'ed97ab916e';
+		private static $list_id = '';
 
 		/**
 		 * Constructor
